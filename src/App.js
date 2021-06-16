@@ -43,10 +43,8 @@ function App() {
         >
           <ThemeProvider theme={theme}>
             <Router>
-              <Home path="/" isAuthenticated={isAuthenticated} />
-              {isAuthenticated && (
-                <Home path="/" isAuthenticated={isAuthenticated} />
-              )}
+              <Home path="/" />
+              {isAuthenticated && <Home path="/" />}
             </Router>
           </ThemeProvider>
         </SWRConfig>

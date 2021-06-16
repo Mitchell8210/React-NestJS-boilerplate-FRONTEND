@@ -18,8 +18,8 @@ const theme = createMuiTheme({
       coolBlueHover: "#3696f5",
     },
     primary: {
-      main: "#bf5b7b",
-      hover: "#b88293",
+      main: "#0080ff",
+      hover: "#3696f5",
     },
   },
 });
